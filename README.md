@@ -4,6 +4,11 @@ Quickly integrate a select capable of filtering the text you input, displaying r
 
 ## **Use**
 
+#### **Import**
+```
+import vue3beautiselect from 'vue3-beautiselect'
+```
+
 ```
 const array  = ['Option 1', 'Option 2', 'Option 3', 'Option 4']
 ...
