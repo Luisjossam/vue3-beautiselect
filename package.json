@@ -1,0 +1,35 @@
+{
+  "name": "vue3-beautiselect",
+  "version": "1.0.0",
+  "description": "A Vue 3 component created to search and filter an array with arrow keys available",
+  "module": "./dist/vue3-beautiselect.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "select",
+    "vue3",
+    "menu",
+    "search"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luisjossam/vue3-beautiselect.git"
+  },
+  "author": "Luisjossam",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.8",
+    "vite-plugin-dts": "^3.8.1",
+    "vue": "^3.4.21"
+  },
+  "files": [
+    "/dist/*",
+    "/dist/components/*"
+  ]
+}
